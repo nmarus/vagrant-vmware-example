@@ -1,0 +1,11 @@
+---
+esxi_hostname: 10.0.0.10
+esxi_username: root
+esxi_password: password
+esxi_virtual_network: network1
+esxi_data_store: datastore1
+esxi_guests:
+  - name: box1
+    box: generic/ubuntu2210
+    numvcpus: 1
+    memsize: 2048
